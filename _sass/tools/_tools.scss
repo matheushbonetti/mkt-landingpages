@@ -19,6 +19,31 @@
           transition: $transition;
 }
 
+@mixin fullwidthbox($color) {
+  position: relative;
+  background-color: $color;
+  &:before{
+    content: "";
+    width: 9999px;
+    height: 100%;
+    display: block;
+    background-color: $color;
+    position: absolute;
+    left: 100%;
+    top: 0;
+  }
+  &:after{
+    content: "";
+    width: 9999px;
+    height: 100%;
+    display: block;
+    background-color: $color;
+    position: absolute;
+    right: 100%;
+    top: 0;
+  }
+}
+
 @mixin button($btn-color, $btn-text-color, $btn-width) {
   background-color: $btn-color;
   color: $btn-text-color;

@@ -40,14 +40,33 @@ strong {
   }
 }
 
+.col-video {
+  padding-left: 0;
+}
+
+.case-info {
+  div {
+    padding-right: 0;
+  }
+  .cases-number {
+    font-size: 30px;
+    color: $base-color;
+  }
+  .cases-description {
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
 
 .content-block {
   padding: 0px 60px !important;
   position: relative;
   margin: 60px 0;
+  display: inline-block;
   h1 {
     font-size: 28px;
     max-width: 600px;
+    margin: 0 0 40px;
   }
   p {
     max-width: 600px;
@@ -68,10 +87,25 @@ strong {
   }
 
 .content-header {
-    padding: 40px 60px;
-    background-color: $base-color;
+    padding: 40px 60px 60px;
     color: $white;
-    @include box-shadow(-300px 0 0 $base-color, -600px 0 0 $base-color, -900px 0 0 $base-color, -1200px 0 0 $base-color, 300px 0 0 $base-color, 600px 0 0 $base-color, 900px 0 0 $base-color, 1200px 0 0 $base-color);
+    @include fullwidthbox($base-color);
+    h2 {
+      font-size: 22px;
+    }
+}
+
+.content-header--whitesecond {
+  padding: 40px 60px 0px;
+  color: $black;
+  @include fullwidthbox($white);
+  h1 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 22px;
+  }
 }
 
 .brand-header {
@@ -140,19 +174,30 @@ strong {
 
 @media screen and (min-width: 1366px) {
   #container section div.socialfloating {
-    top: 540px;
+    top: 360px;
   }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1366px) {
   #container section div.socialfloating {
-    top: 545px;
+    top: 360px;
   }
 }
 
 @media screen and (max-width: 992px) {
   #container section div.socialfloating {
     display: none;
+  }
+  .col-video {
+    padding: 0;
+    margin: 0 -30px;
+  }
+  .case-info {
+    margin-top: 25px;
+    &>div {
+      text-align: center;
+      margin-top: 20px;
+    }
   }
 }
 
@@ -167,15 +212,15 @@ strong {
   margin-right: 10px;
 }
 
-#conversion {
+#conversion, #resources {
   background-color: $second-color;
   padding: 0px;
   header {
     padding: 40px 40px 15px;
     background-color: rgba(0,0,0,0.2);
     margin: 0 0px 20px;
-    h2 { font-size: 24px; }
-    h2, p {
+    h1, h2 { font-size: 24px; }
+    h1, h2, p {
       color: $white;
     }
   }
@@ -210,6 +255,23 @@ strong {
       color: $white;
     }
   }
+}
+.rich-resource {
+  margin: 25px 0 20px 0;
+  display: block;
+  a {
+    color: $white;
+    font-size: 22px;
+    font-weight: 300;
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }
+}
+#conversion {
+  display: none;
 }
 #content{
   padding-left: 0;
