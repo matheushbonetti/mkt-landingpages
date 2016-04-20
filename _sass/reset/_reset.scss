@@ -1,0 +1,9 @@
+#container > section {
+  @include box-shadow(0px 0px 0px !important);
+}
+#container > header {
+  padding: 0 !important;
+}
+.wrapper {
+    width: 100% !important;
+}
