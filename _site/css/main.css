@@ -130,19 +130,6 @@ strong {
 
   .content-header--whitesecond {
     padding: 40px 60px 0px 60px; } }
-.brand-header {
-  background-color: #304955;
-  padding: 14px 0; }
-
-.brand-header__logo {
-  width: 132px;
-  height: 27px;
-  margin: 0 auto;
-  overflow: hidden;
-  background-image: url(https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460554742marca_rd_station.svg);
-  background-size: contain;
-  text-indent: -9999px; }
-
 .hero-header {
   background-image: url(https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg);
   background-size: cover;
@@ -330,11 +317,24 @@ strong {
   padding-right: 0; }
 
 #preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 999;
-  width: 100%;
+  background: #f9fafc url("https://cdn.rawgit.com/matheushbonetti/mkt-landingpages/master/img/default.svg") no-repeat center center;
   height: 100%;
+  left: 0;
   overflow: visible;
-  background: #f4f4f4 url("http://loading.io/loader/?use=eyJzaXplIjo1MCwic3BlZWQiOjEsImNiayI6Im5vbmUiLCJjMSI6IiM3ZDdkN2QiLCJjMiI6IjgiLCJjMyI6IjEwIiwiYzQiOiIxMCIsImM1IjoiNSIsImM2IjoiMzAiLCJ0eXBlIjoiZGVmYXVsdCJ9") no-repeat center center; }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+
+.brand-header {
+  background: #304955;
+  padding: 14px 0; }
+
+.brand-header__logo {
+  background: url(https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460554742marca_rd_station.svg) no-repeat center center;
+  background-size: auto 100%;
+  height: 28px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 100%; }

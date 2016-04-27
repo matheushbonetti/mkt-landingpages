@@ -18,6 +18,13 @@ $dark-grey: lighten($black, 5%);
 $light-grey: darken($white, 15%);
 
 
-// IMAGES
-$logo-rdstation: url(https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460554742marca_rd_station.svg);
+// PRELOADER
+$preloader--background: $white;
+$preloader--image: url('https://cdn.rawgit.com/matheushbonetti/mkt-landingpages/master/img/default.svg');
+
+// BRAND-HEADER
+$brand-header--color: $black;
+// LOGO RESULTADOS DIGITAIS:
+$brand-header__logo: url(https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460554742marca_rd_station.svg);
+
 $hero-header: url(https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg);
