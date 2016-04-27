@@ -1,0 +1,10 @@
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #f4f4f4 url('http://loading.io/loader/?use=eyJzaXplIjo1MCwic3BlZWQiOjEsImNiayI6Im5vbmUiLCJjMSI6IiM3ZDdkN2QiLCJjMiI6IjgiLCJjMyI6IjEwIiwiYzQiOiIxMCIsImM1IjoiNSIsImM2IjoiMzAiLCJ0eXBlIjoiZGVmYXVsdCJ9') no-repeat center center;
+}

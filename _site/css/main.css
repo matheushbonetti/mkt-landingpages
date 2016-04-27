@@ -70,7 +70,7 @@ strong {
   background-color: #9E67C5; }
 
 .content-header {
-  padding: 40px 60px 60px;
+  padding: 40px 60px 60px 0px;
   color: #f9fafc;
   position: relative;
   background-color: #43B0C3; }
@@ -96,7 +96,7 @@ strong {
     font-size: 22px; }
 
 .content-header--whitesecond {
-  padding: 40px 60px 0px;
+  padding: 40px 60px 0px 0px;
   color: #304955;
   position: relative;
   background-color: #f9fafc; }
@@ -124,6 +124,12 @@ strong {
   .content-header--whitesecond h2 {
     font-size: 22px; }
 
+@media screen and (max-width: 768px) {
+  .content-header {
+    padding: 40px 60px 60px 60px; }
+
+  .content-header--whitesecond {
+    padding: 40px 60px 0px 60px; } }
 .brand-header {
   background-color: #304955;
   padding: 14px 0; }
@@ -322,3 +328,13 @@ strong {
 #content {
   padding-left: 0;
   padding-right: 0; }
+
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #f4f4f4 url("http://loading.io/loader/?use=eyJzaXplIjo1MCwic3BlZWQiOjEsImNiayI6Im5vbmUiLCJjMSI6IiM3ZDdkN2QiLCJjMiI6IjgiLCJjMyI6IjEwIiwiYzQiOiIxMCIsImM1IjoiNSIsImM2IjoiMzAiLCJ0eXBlIjoiZGVmYXVsdCJ9") no-repeat center center; }

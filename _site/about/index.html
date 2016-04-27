@@ -896,25 +896,14 @@ window.onload = function() {
 </script>
 <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/c91f571d-e11f-4bad-b0a1-2ba3700d9b4f-loader.js"></script><iframe style="width: 1px; height: 1px; position: absolute; top: -100px;" id="rd_tmgr"></iframe><script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/traffic-source-cookie/stable/traffic-source-cookie.min.js"></script>
 
-      <script src="https://cdn.rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.min.js"></script>
+      <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+
 <script type="text/javascript">
   $(document).ready(function(){
     $("style").remove();
-
-    // function stickConversion(){
-    //   var conversion = $("#conversion"),
-    //   scrolled = $( window ).scrollTop();
-    //   position = conversion.offset().top;
-    //   if (position <= scrolled) {
-    //     conversion.addClass("fixed");
-    //   } else {
-    //     conversion.removeClass("fixed");
-    //   }
-    // } stickConversion();
-    // $( window ).scroll(function(){
-    //   stickConversion();
-    // });
-
+    $(window).load(function(){
+    	$('#preloader').fadeOut('slow',function(){$(this).remove();});
+    });
   });
 </script>
 

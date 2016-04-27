@@ -5,7 +5,8 @@
 
 // Imports of SCSS Styles from the _sass directory
 @import
-  "tools/tools",
-  "settings/__settings",
-  "generic/__generic"
+  "tools",
+  "settings",
+  "__generic",
+  "preloader"
 ;

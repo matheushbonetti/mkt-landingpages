@@ -1,21 +1,10 @@
-<script src="https://cdn.rawgit.com/leafo/sticky-kit/v1.1.2/jquery.sticky-kit.min.js"></script>
+<script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+
 <script type="text/javascript">
   $(document).ready(function(){
     $("style").remove();
-
-    // function stickConversion(){
-    //   var conversion = $("#conversion"),
-    //   scrolled = $( window ).scrollTop();
-    //   position = conversion.offset().top;
-    //   if (position <= scrolled) {
-    //     conversion.addClass("fixed");
-    //   } else {
-    //     conversion.removeClass("fixed");
-    //   }
-    // } stickConversion();
-    // $( window ).scroll(function(){
-    //   stickConversion();
-    // });
-
+    $(window).load(function(){
+    	$('#preloader').fadeOut('slow',function(){$(this).remove();});
+    });
   });
 </script>
