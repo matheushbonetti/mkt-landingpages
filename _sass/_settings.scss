@@ -1,15 +1,23 @@
 // GOOGLE FONTS CALL
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,500italic);
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,500italic');
 
-//COLORS
+////////
+// UNITY
+////////
+$hor-unity: 14px;
+$ver-unity: 14px;
+
+/////////
+// COLORS
+/////////
 $base-color: #43B0C3;
+$secondary-color: #9E67C5;
+
+// SHADES
 $base-color--dark: darken($base-color, 15%);
 $base-color--light: lighten($base-color, 15%);
-
-$second-color: #9E67C5;
-$second-color--dark: darken($second-color, 15%);
-$second-color--light: lighten($second-color, 15%);
-
+$secondary-color--dark: darken($secondary-color, 15%);
+$secondary-color--light: lighten($secondary-color, 15%);
 
 // BLACKS AND WHITES
 $black: #304955;
@@ -21,17 +29,38 @@ $light-grey: darken($white, 15%);
 // PRELOADER
 ////////////
 $preloader--background: $white;
-$preloader--image: url('https://cdn.rawgit.com/matheushbonetti/mkt-landingpages/master/img/default.svg');
+$preloader--image: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/preloader.svg');
 
 ///////////////
 // BRAND-HEADER
 ///////////////
 $brand-header--color: $black;
 // LOGO RESULTADOS DIGITAIS:
-//$brand-header__logo: url(https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rd.svg);
+//$brand-header__logo: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rd.svg');
 // LOGO RESULTADOS DIGITAIS BRANCO:
-$brand-header__logo: url(https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rd_white.svg);
+$brand-header__logo: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rdstation--white.svg');
 // LOGO RD STATION:
-//$brand-header__logo: url(https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rdstation_white.svg);
+//$brand-header__logo: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rdstation_white.svg');
 
-$hero-header: url(https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg);
+//////////////
+// HERO HEADER
+//////////////
+$hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg');
+$hero-header--bg-color: $base-color;
+$hero-header--txt-color: $white;
+$hero-header--min-height: 420px;
+
+//========
+//////////
+// CONTENT
+//////////
+//========
+
+/////////////////
+// CONTENT-BLOCK
+/////////////////
+$content-block--featured--base--bg-color: $base-color;
+$content-block--featured--base--txt-color: $white;
+
+$content-block--featured--secondary--bg-color: $secondary-color;
+$content-block--featured--secondary--txt-color: $white;

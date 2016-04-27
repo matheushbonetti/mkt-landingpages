@@ -1,0 +1,40 @@
+.content-block {
+    padding: 3*$ver-unity 4*$hor-unity 4*$ver-unity 4*$ver-unity;
+    @extend .content-wrapper;
+}
+
+.content-block--styled {
+  position: relative;
+  padding: 1*$ver-unity 4*$hor-unity;
+  margin: 2*$ver-unity auto;
+  &::before {
+    content: "";
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  &:nth-child(odd)::before {
+    background-color: $base-color;
+  }
+  &:nth-child(even)::before {
+    background-color: $secondary-color;
+  }
+}
+
+.content-block--featured--base {
+  color: $content-block--featured--base--txt-color;
+  @include fullwidthbox($content-block--featured--base--bg-color);
+}
+
+.content-block--featured--secondary {
+  color: $content-block--featured--secondary--txt-color;
+  @include fullwidthbox($content-block--featured--secondary--bg-color);
+}
+
+@media screen and (max-width: 768px) {
+  .content-block {
+    padding: 2*$ver-unity 2*$hor-unity;
+  }
+}

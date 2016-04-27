@@ -773,15 +773,15 @@
       <header>
         <div class="wrapper">
 
-        <div id="preloader"></div>
+        <div id="preloader" class="preloader"></div>
 
 <header class="brand-header">
   <h1 class="brand-header__logo">RD Station</h1>
 </header>
 
-<section class="col-xs-12 hero-header">
+<section class="hero-header">
   <div class="content-wrapper">
-    <div class="col-md-6 col-sm-6 col-xs-12 hero-header__content-block">
+    <div class="hero-header__content-block col-sm-6">
       <h1>
         Precisa gerar mais <strong>resultados para sua agência e seus clientes</strong>?
       </h1>
@@ -799,7 +799,57 @@
       <section class="clearfix">
       <div class="wrapper">
         <div id="content" class="left">
-          
+          <section class="content-section content-wrapper">
+  <header class="content-block content-block--featured content-block--featured--base">
+    <h1>Content Header Base Color</h1>
+    <h2>Nossos consultores entrarão em contato em breve para uma conversa sobre como atingir melhores resultados com seu negócio</h2>
+  </header>
+  <div class="content-block content-block--featured content-block--featured--secondary">
+    <h1>Content Header Secondary Color</h1>
+    <h2>Nossos consultores entrarão em contato em breve para uma conversa sobre como atingir melhores resultados com seu negócio</h2>
+  </div>
+  <div class="content-block">
+    <h1>Content Header Secondary Color</h1>
+    <h2>Nossos consultores entrarão em contato em breve para uma conversa sobre como atingir melhores resultados com seu negócio</h2>
+  </div>
+  <div class="content-block--styled ">
+    <h1>Content Header Secondary Color</h1>
+    <p>Nossos consultores entrarão em contato em breve para uma conversa sobre como atingir melhores resultados com seu negócio</p>
+  </div>
+  <div class="content-block content-block--styled">
+    <h1>Content Header Secondary Color</h1>
+    <p>Nossos consultores entrarão em contato em breve para uma conversa sobre como atingir melhores resultados com seu negócio</p>
+  </div>
+  <div class="content-block content-block--styled">
+    <h1>Content Header Secondary Color</h1>
+    <p>Nossos consultores entrarão em contato em breve para uma conversa sobre como atingir melhores resultados com seu negócio</p>
+  </div>
+</section>
+
+<section class="content-section content-wrapper">
+  <div class="col col-md-8">
+    <div class="content-block content-block--styled">
+      <h1>Content Header Secondary Color</h1>
+      <p>Nossos consultores entrarão em contato em breve para uma conversa sobre como atingir melhores resultados com seu negócio</p>
+    </div>
+    <div class="content-block content-block--styled">
+      <h1>Content Header Secondary Color</h1>
+      <p>Nossos consultores entrarão em contato em breve para uma conversa sobre como atingir melhores resultados com seu negócio</p>
+    </div>
+    <div class="content-block content-block--styled">
+      <h1>Content Header Secondary Color</h1>
+      <p>Nossos consultores entrarão em contato em breve para uma conversa sobre como atingir melhores resultados com seu negócio</p>
+    </div>
+  </div>
+</section>
+
+<section class="content-section content-wrapper">
+  <header class="content-block content-block--featured content-block--featured--base">
+    <h1>Content Header Base Color</h1>
+    <h2>Nossos consultores entrarão em contato em breve para uma conversa sobre como atingir melhores resultados com seu negócio</h2>
+  </header>
+</section>
+
         </div>
         <div id="conversion" class="right">
           <header>
@@ -906,6 +956,7 @@ window.onload = function() {
 <script type="text/javascript">
   $(document).ready(function(){
     $("style").remove();
+    $("#conversion").addClass("col-md-4").wrap( "<div class='content-wrapper'></div>" );;
     $(window).load(function(){
     	$('#preloader').fadeOut('slow',function(){$(this).remove();});
     });

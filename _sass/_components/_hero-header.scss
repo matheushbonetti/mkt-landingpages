@@ -1,0 +1,24 @@
+.hero-header {
+  background: $hero-header--image center center;
+  background-size: cover;
+  float: left;
+  width: 100%;
+}
+.hero-header__content-block {
+  background-color: $hero-header--bg-color;
+  min-height: $hero-header--min-height;
+  padding: 3*$ver-unity 4*$hor-unity;
+  h1 {
+    color: $hero-header--txt-color;
+  }
+  p {
+    color: $hero-header--txt-color;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-header__content-block {
+    padding: 2*$ver-unity 2*$hor-unity;
+  }
+}

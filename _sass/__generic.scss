@@ -11,10 +11,12 @@ body {
 h1, h2, h3, h4 {
   line-height: 1.4;
   font-weight: 300;
+  margin: 0;
 }
 h5, h6, p, p.lead {
   line-height: 1.7;
   font-weight: 300;
+  margin: 0;
 }
 p {
   font-size: 18px;
@@ -25,19 +27,6 @@ strong {
 }
 .no-break {
   white-space: nowrap;
-}
-
-@media (min-width: 768px) and (max-width: 1200px) {
-  .clearfix>.wrapper {
-    padding: 0 100px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .content-wrapper, .clearfix>.wrapper {
-    max-width: 1120px;
-    margin: 0 auto;
-  }
 }
 
 .col-video {
@@ -58,104 +47,17 @@ strong {
   }
 }
 
-.content-block {
-  padding: 0px 60px !important;
-  position: relative;
-  margin: 60px 0;
-  display: inline-block;
-  h1 {
-    font-size: 28px;
-    max-width: 600px;
-    margin: 0 0 40px;
-  }
-  p {
-    max-width: 600px;
-  }
-}
-.content-block::before {
-  content: "";
-  width: 5px;
-  height: 100%;
-  position: absolute;
-  left: 0px;
-}
-  .content-block:nth-child(odd)::before {
-    background-color: $base-color;
-  }
-  .content-block:nth-child(even)::before {
-    background-color: $second-color;
-  }
-
-.content-header {
-    padding: 40px 60px 60px 0px;
-    color: $white;
-    @include fullwidthbox($base-color);
-    h2 {
-      font-size: 22px;
-    }
-}
-
-.content-header--whitesecond {
-  padding: 40px 60px 0px 0px;
-  color: $black;
-  @include fullwidthbox($white);
-  h1 {
-    font-size: 40px;
-    font-weight: 400;
-  }
-  h2 {
-    font-size: 22px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .content-header {
-    padding: 40px 60px 60px 60px;
-  }
-  .content-header--whitesecond {
-    padding: 40px 60px 0px 60px;
-  }
-}
-
-.hero-header {
-  background-image: $hero-header;
-  background-size: cover;
-  background-position: center center;
-}
-.hero-header__content-block {
-  background-color: $base-color;
-  padding: 40px;
-  padding-left: 60px;
-  padding-right: 60px;
-  min-height: 420px;
-  h1 {
-    color: $white;
-  }
-  p {
-    color: $white;
-    font-size: 18px;
-  }
-}
-
-.content-section {
-  padding: 0;
-}
-
 .call_button {
   @include button($base-color, $white, 100%);
 }
 
 .btn-primary {
-  @include button($second-color, $white, auto);
+  @include button($secondary-color, $white, auto);
   display: inline-block;
   margin: 0 auto 50px;
 }
 
-.content-header__btn {
-  margin: 20px auto 0;
-  display: block;
-  text-align: center;
-}
+
 
 /* SOCIAL SHARE */
 #container section div.socialfloating {
@@ -208,7 +110,7 @@ strong {
 }
 
 #conversion, #resources {
-  background-color: $second-color;
+  background-color: $secondary-color;
   padding: 0px;
   header {
     padding: 40px 40px 15px;
@@ -234,7 +136,7 @@ strong {
       }
       input, select {
         border: 0;
-        border-bottom: 2px solid $second-color--light;
+        border-bottom: 2px solid $secondary-color--light;
         outline: 0;
         @include border-radius(0px);
         font-size: 16px;
@@ -265,9 +167,7 @@ strong {
     }
   }
 }
-#conversion {
-  display: none;
-}
+
 #content{
   padding-left: 0;
   padding-right: 0;

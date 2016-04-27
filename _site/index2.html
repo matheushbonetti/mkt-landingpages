@@ -773,15 +773,15 @@
       <header>
         <div class="wrapper">
 
-        <div id="preloader"></div>
+        <div id="preloader" class="preloader"></div>
 
 <header class="brand-header">
   <h1 class="brand-header__logo">RD Station</h1>
 </header>
 
-<section class="col-xs-12 hero-header">
+<section class="hero-header">
   <div class="content-wrapper">
-    <div class="col-md-6 col-sm-6 col-xs-12 hero-header__content-block">
+    <div class="hero-header__content-block col-sm-6">
       <h1>
         Precisa gerar mais <strong>resultados para sua agência e seus clientes</strong>?
       </h1>
@@ -982,6 +982,7 @@ window.onload = function() {
 <script type="text/javascript">
   $(document).ready(function(){
     $("style").remove();
+    $("#conversion").addClass("col-md-4").wrap( "<div class='content-wrapper'></div>" );;
     $(window).load(function(){
     	$('#preloader').fadeOut('slow',function(){$(this).remove();});
     });

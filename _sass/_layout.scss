@@ -1,0 +1,20 @@
+.wrapper {
+  overflow: hidden;
+}
+.clearfix>.wrapper {
+  //display: flex;
+}
+.content-section {
+  padding: 0;
+  display: table;
+}
+.content-wrapper {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.col {
+  padding: 0;
+}
+#conversion {
+   order: 1;
+}
