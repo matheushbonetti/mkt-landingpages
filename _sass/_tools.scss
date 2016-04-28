@@ -44,6 +44,10 @@
   }
 }
 
+@mixin fullwidthimage($image) {
+  background-image: $image;
+}
+
 @mixin button($btn-color, $btn-text-color, $btn-width) {
   background-color: $btn-color;
   color: $btn-text-color;

@@ -2,9 +2,14 @@
 .wrapper {
   overflow: hidden; }
 
+.clearfix > .wrapper {
+  max-width: 1120px;
+  margin: 0 auto; }
+
 .content-section {
   padding: 0;
-  display: table; }
+  display: table;
+  width: 100%; }
 
 .content-wrapper, .content-block {
   max-width: 1120px;
@@ -131,10 +136,10 @@ strong {
 
 @media screen and (min-width: 1366px) {
   #container section div.socialfloating {
-    top: 360px; } }
+    margin-top: 50px; } }
 @media screen and (min-width: 992px) and (max-width: 1366px) {
   #container section div.socialfloating {
-    top: 360px; } }
+    margin-top: 50px; } }
 @media screen and (max-width: 992px) {
   #container section div.socialfloating {
     display: none; }
@@ -193,6 +198,8 @@ strong {
         color: #304955;
         padding: 5px 8px;
         width: 100%; }
+      #conversion section .field input[type="checkbox"], #resources section .field input[type="checkbox"] {
+        width: inherit; }
     #conversion section p.notice, #resources section p.notice {
       font-size: 14px;
       margin: 20px 0 0;
@@ -209,6 +216,29 @@ strong {
       max-width: 100%;
       height: auto;
       margin-bottom: 10px; }
+
+.content-case {
+  padding: 40px 60px;
+  text-align: center; }
+  .content-case h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #f9fafc; }
+  .content-case > .row {
+    margin: 30px 0; }
+    .content-case > .row .cases-number {
+      color: #f9fafc;
+      font-size: 32px;
+      font-weight: 500;
+      margin-top: 20px;
+      text-align: center; }
+    .content-case > .row .cases-description {
+      color: #f9fafc;
+      font-size: 13px;
+      font-weight: 300;
+      text-align: center; }
+  .content-case .btn-primary {
+    margin-top: 20px; }
 
 #content {
   padding-left: 0;
@@ -320,6 +350,10 @@ strong {
     position: absolute;
     right: 100%;
     top: 0; }
+
+.content-block--featured--imaged {
+  color: #f9fafc;
+  background-image: url("https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F877%2F1461850612bottom-bg.png"); }
 
 @media screen and (max-width: 768px) {
   .content-block {
