@@ -56,13 +56,13 @@ strong {
   padding-right: 0; }
 .case-info .cases-number {
   font-size: 30px;
-  color: #43B0C3; }
+  color: #19AF8E; }
 .case-info .cases-description {
   font-weight: 300;
   font-size: 14px; }
 
 .call_button {
-  background-color: #43B0C3;
+  background-color: #19AF8E;
   color: #f9fafc;
   outline: 0;
   width: 100%;
@@ -76,24 +76,24 @@ strong {
   -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-  border: 1px solid #7dc8d6;
-  border-bottom: 2px solid #7dc8d6;
+  border: 1px solid #33e2bb;
+  border-bottom: 2px solid #33e2bb;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -ms-transition: all 0.4s;
   transition: all 0.4s; }
   .call_button:hover {
-    background-color: #39a1b3;
+    background-color: #16997c;
     -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     -ms-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
-    border: 1px solid #43B0C3;
-    border-bottom: 2px solid #43B0C3;
+    border: 1px solid #19AF8E;
+    border-bottom: 2px solid #19AF8E;
     text-decoration: none; }
 
 .btn-primary {
-  background-color: #9E67C5;
+  background-color: #536564;
   color: #f9fafc;
   outline: 0;
   width: auto;
@@ -107,8 +107,8 @@ strong {
   -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   -ms-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-  border: 1px solid #c19eda;
-  border-bottom: 2px solid #c19eda;
+  border: 1px solid #768e8d;
+  border-bottom: 2px solid #768e8d;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   -ms-transition: all 0.4s;
@@ -116,13 +116,13 @@ strong {
   display: inline-block;
   margin: 0 auto 50px; }
   .btn-primary:hover {
-    background-color: #9255be;
+    background-color: #475756;
     -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     -ms-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
-    border: 1px solid #9E67C5;
-    border-bottom: 2px solid #9E67C5;
+    border: 1px solid #536564;
+    border-bottom: 2px solid #536564;
     text-decoration: none; }
 
 /* SOCIAL SHARE */
@@ -164,7 +164,7 @@ strong {
   margin-right: 10px; }
 
 #conversion, #resources {
-  background-color: #9E67C5;
+  background-color: #536564;
   padding: 0px; }
   #conversion header, #resources header {
     padding: 40px 40px 15px;
@@ -187,7 +187,7 @@ strong {
         font-weight: 300; }
       #conversion section .field input, #conversion section .field select, #resources section .field input, #resources section .field select {
         border: 0;
-        border-bottom: 2px solid #c19eda;
+        border-bottom: 2px solid #768e8d;
         outline: 0;
         -webkit-border-radius: 0px;
         -moz-border-radius: 0px;
@@ -268,13 +268,13 @@ strong {
   width: 100%; }
 
 .hero-header {
-  background: url("https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg") center center;
+  background: url("https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461159806tecnologia.jpg") center center;
   background-size: cover;
   float: left;
   width: 100%; }
 
 .hero-header__content-block {
-  background-color: #43B0C3;
+  background-color: #19AF8E;
   min-height: 420px;
   padding: 42px 56px; }
   .hero-header__content-block h1 {
@@ -301,20 +301,20 @@ strong {
     left: 0px;
     top: 0px; }
   .content-block--styled:nth-child(odd)::before {
-    background-color: #43B0C3; }
+    background-color: #19AF8E; }
   .content-block--styled:nth-child(even)::before {
-    background-color: #9E67C5; }
+    background-color: #536564; }
 
 .content-block--featured--base {
   color: #f9fafc;
   position: relative;
-  background-color: #43B0C3; }
+  background-color: #19AF8E; }
   .content-block--featured--base:before {
     content: "";
     width: 9999px;
     height: 100%;
     display: block;
-    background-color: #43B0C3;
+    background-color: #19AF8E;
     position: absolute;
     left: 100%;
     top: 0; }
@@ -323,7 +323,7 @@ strong {
     width: 9999px;
     height: 100%;
     display: block;
-    background-color: #43B0C3;
+    background-color: #19AF8E;
     position: absolute;
     right: 100%;
     top: 0; }
@@ -331,13 +331,13 @@ strong {
 .content-block--featured--secondary {
   color: #f9fafc;
   position: relative;
-  background-color: #9E67C5; }
+  background-color: #536564; }
   .content-block--featured--secondary:before {
     content: "";
     width: 9999px;
     height: 100%;
     display: block;
-    background-color: #9E67C5;
+    background-color: #536564;
     position: absolute;
     left: 100%;
     top: 0; }
@@ -346,14 +346,14 @@ strong {
     width: 9999px;
     height: 100%;
     display: block;
-    background-color: #9E67C5;
+    background-color: #536564;
     position: absolute;
     right: 100%;
     top: 0; }
 
 .content-block--featured--imaged {
   color: #f9fafc;
-  background-image: url("https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F877%2F1461850612bottom-bg.png"); }
+  background-image: url("https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F2%2F1462570857tecnologia-botom.jpg"); }
 
 @media screen and (max-width: 768px) {
   .content-block {
