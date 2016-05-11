@@ -3,11 +3,20 @@
   padding: 14px 0;
 }
 .brand-header__logo {
-  background: $brand-header__logo no-repeat center center;
   background-size: auto 100%;
   height: 28px;
   margin: 0 auto;
   overflow: hidden;
   text-indent: -9999px;
   width: 100%;
+}
+
+.brand-header--rd {
+  background: $rd-logo--white no-repeat center center;
+  @extend .brand-header__logo;
+}
+
+.brand-header--rdstation {
+  background: $rdstation-logo--white no-repeat center center;
+  @extend .brand-header__logo;
 }

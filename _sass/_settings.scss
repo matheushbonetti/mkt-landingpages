@@ -11,16 +11,16 @@ $ver-unity: 14px;
 // COLORS
 /////////
 //AGENCIAS
-// $base-color: #43B0C3;
-// $secondary-color: #9E67C5;
+$base-color: #43B0C3;
+$secondary-color: #9E67C5;
 
 //TEC
-$base-color: #19AF8E;
-$secondary-color: #536564;
+// $base-color: #19AF8E;
+// $secondary-color: #536564;
 
 //EDU
-// $base-color: #D83A56;
-// $secondary-color: #4385DA;
+$base-color: #D83A56;
+$secondary-color: #4385DA;
 
 // SHADES
 $base-color--dark: darken($base-color, 15%);
@@ -45,21 +45,21 @@ $preloader--image: url('https://rawgit.com/matheushbonetti/mkt-landingpages/mast
 ///////////////
 $brand-header--color: $black;
 // LOGO RESULTADOS DIGITAIS:
-//$brand-header__logo: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rd.svg');
+$rd-logo: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rd.svg');
 // LOGO RESULTADOS DIGITAIS BRANCO:
-$brand-header__logo: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rdstation--white.svg');
-// LOGO RD STATION:
-//$brand-header__logo: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rdstation_white.svg');
+$rd-logo--white: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rdstation--white.svg');
+// LOGO RD STATION BRANCO:
+$rdstation-logo--white: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rdstation_white.svg');
 
 //////////////
 // HERO HEADER
 //////////////
 //AGENCIAS
-//$hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg');
+// $hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg');
 //TEC
-$hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461159806tecnologia.jpg');
+// $hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461159806tecnologia.jpg');
 //EDU
-//$hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461074608educacao.jpg');
+$hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461074608educacao.jpg');
 
 $hero-header--bg-color: $base-color;
 $hero-header--txt-color: $white;
