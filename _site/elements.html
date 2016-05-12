@@ -771,15 +771,23 @@
       <header>
         <div class="wrapper">
 
-        <!-- AGENCIAS -->
-<section class="hero-header">
-  <div class="content-wrapper">
-    <div class="hero-header__content-block col-sm-6">
-      <h1>Precisa gerar mais <strong>resultados para sua agência e seus clientes</strong>?</h1>
-      <p>Veja como o <strong>RD Station</strong> e a <strong>oferta de serviços de Inbound Marketing</strong> podem alavancar o seu negócio</p>
-    </div>
-  </div>
-</section>
+        <!-- PRELOADER -->
+<div id="preloader" class="preloader"></div>
+
+
+<!-- BRAND-HEADER - RESULTADOS DIGITAIS-->
+<header class="brand-header">
+  <h1 class="brand-header__logo brand-header--rdstation">Resultados Digitais</h1>
+</header>
+ 
+
+
+<div class="content-header content-block content-block--featured content-block--featured--base">
+  <h1>Obrigado por se cadastrar!</h1>
+  <p>Nossos consultores entrar&atilde;o em contato em breve para uma conversa sobre como levar sua ag&ecirc;ncia para outro n&iacute;vel</p>
+  <a class="btn btn-primary" href="http://www.google.com">Faça o download aqui</a>
+</div>
+
 
 
         </div>
@@ -841,49 +849,50 @@
 
         </div>
         <div id="conversion" class="right">
-          <header>
-            <h2>Converse com nossos consultores especialistas em educação e descubra as melhores opções para a sua Instituição de Ensino!</h2>
-            <p></p>
-          </header>
-          <section>
-            <form id="conversion-form" action="https://www.rdstation.com.br/api/1.2/conversions" method="POST">
-              <input type="hidden" name="token_rdstation" value="1750e574281b3dc41ac45fb521f47996">
-              <input type="hidden" name="identificador" value="lm-segmentos-teste-matheus">
-              <input type="hidden" name="_is" value="2">
-              <input type="hidden" name="redirect_to" value="http://trials.rdstation.com.br">
-              <input type="hidden" name="c_utmz" value="78301271.1456935279.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)">
-              <input type="hidden" name="traffic_source" value="https://app.rdstation.com.br/landing-pages/112139/editar?page=2>>78301271.1456935279.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)">
-              <div id="error-container">
-                <p>Preencha corretamente os campos marcados</p>
-              </div>
-              <div class="field">
-                <label for="name">Nome*</label><input type="text" name="name" id="name" value="" class="form-control  required">
-              </div>
-              <div class="field">
-                <label for="email">Email*</label><input type="email" name="email" id="email" value="" class="form-control  required">
-              </div>
-              <div class="field">
-                <label for="company">Empresa*</label><input type="text" name="company" id="company" value="" class="form-control  required">
-              </div>
-              <div class="field">
-                <label for="job_title">Cargo*</label><input type="text" name="job_title" id="job_title" value="" class="form-control  required">
-              </div>
-              <div class="field">
-                <label><span id="math_expression">9 + 3 = ?</span></label>
-                <input type="text" name="captcha" class="math">
-              </div>
-              <div class="actions">
-                <input type="submit" class="call_button" id="cf_submit" value="Receber material">
-                <img src="//rdstation-static.s3.amazonaws.com/images/ajax-loader.gif" id="ajax-loader" alt="Enviando..." style="display: none;">
-              </div>
-              <p class="notice">Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.</p>
-              <div style="position: absolute; left: -5000px">
-                <input type="text" name="emP7yF13ld" autocomplete="off" tabindex="-1" value="">
-                <input type="text" name="sh0uldN07ch4ng3" autocomplete="off" tabindex="-1" value="should_not_change">
-              </div>
-            </form>
-          </section>
-        </div>
+  <header>
+    <h2>Converse com nossos consultores especialistas em educação e descubra as melhores opções para a sua Instituição de Ensino!</h2>
+    <p></p>
+  </header>
+  <section>
+    <form id="conversion-form" action="https://www.rdstation.com.br/api/1.2/conversions" method="POST">
+      <input type="hidden" name="token_rdstation" value="1750e574281b3dc41ac45fb521f47996">
+      <input type="hidden" name="identificador" value="lm-segmentos-teste-matheus">
+      <input type="hidden" name="_is" value="2">
+      <input type="hidden" name="redirect_to" value="http://trials.rdstation.com.br">
+      <input type="hidden" name="c_utmz" value="78301271.1456935279.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)">
+      <input type="hidden" name="traffic_source" value="https://app.rdstation.com.br/landing-pages/112139/editar?page=2>>78301271.1456935279.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)">
+      <div id="error-container">
+        <p>Preencha corretamente os campos marcados</p>
+      </div>
+      <div class="field">
+        <label for="name">Nome*</label><input type="text" name="name" id="name" value="" class="form-control  required">
+      </div>
+      <div class="field">
+        <label for="email">Email*</label><input type="email" name="email" id="email" value="" class="form-control  required">
+      </div>
+      <div class="field">
+        <label for="company">Empresa*</label><input type="text" name="company" id="company" value="" class="form-control  required">
+      </div>
+      <div class="field">
+        <label for="job_title">Cargo*</label><input type="text" name="job_title" id="job_title" value="" class="form-control  required">
+      </div>
+      <div class="field">
+        <label><span id="math_expression">9 + 3 = ?</span></label>
+        <input type="text" name="captcha" class="math">
+      </div>
+      <div class="actions">
+        <input type="submit" class="call_button" id="cf_submit" value="Receber material">
+        <img src="//rdstation-static.s3.amazonaws.com/images/ajax-loader.gif" id="ajax-loader" alt="Enviando..." style="display: none;">
+      </div>
+      <p class="notice">Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.</p>
+      <div style="position: absolute; left: -5000px">
+        <input type="text" name="emP7yF13ld" autocomplete="off" tabindex="-1" value="">
+        <input type="text" name="sh0uldN07ch4ng3" autocomplete="off" tabindex="-1" value="should_not_change">
+      </div>
+    </form>
+  </section>
+</div>
+
 
       <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script type="text/javascript" src="//d335luupugsy2.cloudfront.net/js/jquery.validate/1.9/jquery.validate.min.js"></script>
@@ -942,12 +951,43 @@ window.onload = function() {
 
 
       </div>
-      <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+      <section class="content-section content-block--featured--imaged">
+  <div class="content-wrapper content-block content-block--featured">
+    <h1>Conhe&ccedil;a mais dos nossos materiais ricos para Ag&ecirc;ncias</h1>
+    <p>&nbsp;</p>
+    <div class="row">
+      <div class="rich-resource col col-md-4">
+  <a href="http://materiais.resultadosdigitais.com.br/inbound-marketing-guia-basico" target="_blank">
+    <img src="https://d335luupugsy2.cloudfront.net/images/landing_page/99122/ebook_thank-u-page.png" alt="" />
+    <strong>Guia:</strong> Inbound Marketing - tudo o que sua ag&ecirc;ncia precisa saber
+  </a>
+</div>
+
+
+      <div class="rich-resource col col-md-4">
+  <a href="http://materiais.resultadosdigitais.com.br/ebook-os-desafios-das-agencias-de-resultados" target="_blank">
+    <img src="https://d335luupugsy2.cloudfront.net/images/landing_page/43618/offer-logo.png" alt="" />
+    <strong>eBook:</strong> Os principais desafios das ag&ecirc;ncias de resultados
+  </a>
+</div>
+
+
+      <div class="rich-resource col col-md-4">
+  <a href="http://materiais.resultadosdigitais.com.br/17-servicos-de-inbound-marketing" target="_blank">
+    <img src="https://d335luupugsy2.cloudfront.net/images/landing_page/15904/offer-logo.png" alt="" />
+    <strong>eBook:</strong> 17 servi&ccedil;os de Inbound Marketing que sua empresa pode oferecer
+  </a>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
 
 <script type="text/javascript">
   $(document).ready(function(){
     $("style").remove();
-    $("#content").addClass("col col-md-8");
     $("#conversion").addClass("col col-md-4").wrap( "<div class='content-wrapper'></div>" );
     $(window).load(function(){
     	$('#preloader').fadeOut('slow',function(){$(this).remove();});

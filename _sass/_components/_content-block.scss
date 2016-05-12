@@ -1,6 +1,56 @@
 .content-block {
     padding: 3*$ver-unity 4*$hor-unity 4*$ver-unity 4*$ver-unity;
     @extend .content-wrapper;
+    .btn {
+      margin: 30px 0 0;
+    }
+}
+
+.rich-resource {
+  padding: 0 20px;
+}
+
+.content-case {
+  padding: 40px 60px;
+  text-align: left;
+  h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  &>.row {
+    margin: 30px 0;
+    .cases-number {
+      color: $white;
+      font-size: 32px;
+      font-weight: 500;
+      margin-top: 20px;
+      text-align: left;
+    }
+    .cases-description {
+      color: $white;
+      font-size: 13px;
+      font-weight: 300;
+      text-align: left;
+    }
+  }
+  .btn-primary {
+    margin-top: 20px;
+  }
+}
+
+.content-case--featured {
+  text-align: center;
+  h1 {
+    color: $white;
+    text-align: center;
+  }
+  &>.row {
+    .cases-number, .cases-description {
+      color: $white;
+      text-align: center;
+    }
+  }
 }
 
 .content-block--styled {
@@ -26,21 +76,30 @@
 .content-block--featured--base {
   color: $content-block--featured--base--txt-color;
   @include fullwidthbox($content-block--featured--base--bg-color);
+  p, h1, h2, h3, h4, h5, h6, a {
+    color: $content-block--featured--base--txt-color;
+  }
 }
 
 .content-block--featured--secondary {
   color: $content-block--featured--secondary--txt-color;
   @include fullwidthbox($content-block--featured--secondary--bg-color);
+  p, h1, h2, h3, h4, h5, h6, a {
+    color: $content-block--featured--base--txt-color;
+  }
 }
 
 .content-block--featured--imaged {
-  color: $white;
   //AGENCIAS
   @include fullwidthimage(url('https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F877%2F1461850612bottom-bg.png'));
   //TECNOLOGIA
   // @include fullwidthimage(url('https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F2%2F1462570857tecnologia-botom.jpg'));
   //EDUCACAO
   // @include fullwidthimage(url('https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F2%2F1462570857edu-bottom-bg.jpg'));
+  p, h1, h2, h3, h4, h5, h6, a {
+    color: $white;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {

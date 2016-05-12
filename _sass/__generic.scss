@@ -171,35 +171,6 @@ strong {
   }
 }
 
-.content-case {
-  padding: 40px 60px;
-  text-align: center;
-  h1 {
-    font-size: 30px;
-    text-align: center;
-    color: $white;
-  }
-  &>.row {
-    margin: 30px 0;
-    .cases-number {
-      color: $white;
-      font-size: 32px;
-      font-weight: 500;
-      margin-top: 20px;
-      text-align: center;
-    }
-    .cases-description {
-      color: $white;
-      font-size: 13px;
-      font-weight: 300;
-      text-align: center;
-    }
-  }
-  .btn-primary {
-    margin-top: 20px;
-  }
-}
-
 #content{
   padding-left: 0;
   padding-right: 0;

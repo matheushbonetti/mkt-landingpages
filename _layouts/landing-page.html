@@ -1,26 +1,15 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
-  {% include calls.html %}
+  {% include _station-parts/html-head.html %}
+  {% include head-script.html %}
 
   <body>
     <div id="container">
       <header>
         <div class="wrapper">
 
-        <!-- PRELOADER -->
-        {% include preloader.html %}
-
-        <!-- BRAND-HEADER - RESULTADOS DIGITAIS-->
-        {% include brand-header-RD.html %}
-
-
-        <!-- BRAND-HEADER - RD STATION
-        {% include brand-header-RDStation.html %}-->
-
-
-        {% include header-agencias.html %}
+        {% include header.html %}
 
         </div>
       </header>
@@ -30,13 +19,13 @@
         <div id="content" class="left">
           {{ content }}
         </div>
-        {% include conversion.html %}
+        {% include _station-parts/html-conversion.html %}
 
-      {% include footer.html %}
+      {% include _station-parts/html-bottom.html %}
 
       </div>
-      {% include footer-agencias.html %}
-      {% include callsfooter.html %}
+      {% include _elements/footer-agencias.html %}
+      {% include body-script.html %}
     </div>
 
   </body>

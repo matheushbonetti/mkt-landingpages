@@ -772,32 +772,22 @@
         <div class="wrapper">
 
         <!-- PRELOADER -->
-        <div id="preloader" class="preloader"></div>
+<div id="preloader" class="preloader"></div>
 
 
-        <!-- BRAND-HEADER - RESULTADOS DIGITAIS-->
-        <header class="brand-header">
-  <h1 class="brand-header__logo brand-header--rd">Resultados Digitais</h1>
+<!-- BRAND-HEADER - RESULTADOS DIGITAIS-->
+<header class="brand-header">
+  <h1 class="brand-header__logo brand-header--rdstation">Resultados Digitais</h1>
 </header>
+ 
 
 
+<div class="content-header content-block content-block--featured content-block--featured--base">
+  <h1>Obrigado por se cadastrar!</h1>
+  <p>Nossos consultores entrar&atilde;o em contato em breve para uma conversa sobre como levar sua ag&ecirc;ncia para outro n&iacute;vel</p>
+  <a class="btn btn-primary" href="http://www.google.com">Faça o download aqui</a>
+</div>
 
-        <!-- BRAND-HEADER - RD STATION
-        <header class="brand-header">
-  <h1 class="brand-header__logo brand-header--rdstation">RD Station</h1>
-</header>
--->
-
-
-        <!-- AGENCIAS -->
-<section class="hero-header">
-  <div class="content-wrapper">
-    <div class="hero-header__content-block col-sm-6">
-      <h1>Precisa gerar mais <strong>resultados para sua agência e seus clientes</strong>?</h1>
-      <p>Veja como o <strong>RD Station</strong> e a <strong>oferta de serviços de Inbound Marketing</strong> podem alavancar o seu negócio</p>
-    </div>
-  </div>
-</section>
 
 
         </div>
@@ -937,7 +927,7 @@ window.onload = function() {
       <!-- AGENCIAS -->
 <section class="content-section content-block--featured--imaged">
   <div class="content-wrapper content-block content-block--featured">
-    <div class="content-case">
+    <div class="content-case content-case--featured">
       <h1 class="text-center">Veja como a <strong>Clint.digital</strong> aumentou seu faturamento com a oferta de serviços digitais</h1>
       <div class="row">
         <div class="col-md-6 col-video">
@@ -964,12 +954,43 @@ window.onload = function() {
   </div>
 </section>
 
-      <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+      <section class="content-section content-block--featured--imaged">
+  <div class="content-wrapper content-block content-block--featured">
+    <h1>Conhe&ccedil;a mais dos nossos materiais ricos para Ag&ecirc;ncias</h1>
+    <p>&nbsp;</p>
+    <div class="row">
+      <div class="rich-resource col col-md-4">
+  <a href="http://materiais.resultadosdigitais.com.br/inbound-marketing-guia-basico" target="_blank">
+    <img src="https://d335luupugsy2.cloudfront.net/images/landing_page/99122/ebook_thank-u-page.png" alt="" />
+    <strong>Guia:</strong> Inbound Marketing - tudo o que sua ag&ecirc;ncia precisa saber
+  </a>
+</div>
+
+
+      <div class="rich-resource col col-md-4">
+  <a href="http://materiais.resultadosdigitais.com.br/ebook-os-desafios-das-agencias-de-resultados" target="_blank">
+    <img src="https://d335luupugsy2.cloudfront.net/images/landing_page/43618/offer-logo.png" alt="" />
+    <strong>eBook:</strong> Os principais desafios das ag&ecirc;ncias de resultados
+  </a>
+</div>
+
+
+      <div class="rich-resource col col-md-4">
+  <a href="http://materiais.resultadosdigitais.com.br/17-servicos-de-inbound-marketing" target="_blank">
+    <img src="https://d335luupugsy2.cloudfront.net/images/landing_page/15904/offer-logo.png" alt="" />
+    <strong>eBook:</strong> 17 servi&ccedil;os de Inbound Marketing que sua empresa pode oferecer
+  </a>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
 
 <script type="text/javascript">
   $(document).ready(function(){
     $("style").remove();
-    $("#content").addClass("col col-md-8");
     $("#conversion").addClass("col col-md-4").wrap( "<div class='content-wrapper'></div>" );
     $(window).load(function(){
     	$('#preloader').fadeOut('slow',function(){$(this).remove();});

@@ -2429,29 +2429,6 @@ strong {
       height: auto;
       margin-bottom: 10px; }
 
-.content-case {
-  padding: 40px 60px;
-  text-align: center; }
-  .content-case h1 {
-    font-size: 30px;
-    text-align: center;
-    color: #f9fafc; }
-  .content-case > .row {
-    margin: 30px 0; }
-    .content-case > .row .cases-number {
-      color: #f9fafc;
-      font-size: 32px;
-      font-weight: 500;
-      margin-top: 20px;
-      text-align: center; }
-    .content-case > .row .cases-description {
-      color: #f9fafc;
-      font-size: 13px;
-      font-weight: 300;
-      text-align: center; }
-  .content-case .btn-primary {
-    margin-top: 20px; }
-
 #content {
   padding-left: 0;
   padding-right: 0; }
@@ -2505,6 +2482,43 @@ strong {
     padding: 28px 28px; } }
 .content-block {
   padding: 42px 56px 56px 56px; }
+  .content-block .btn {
+    margin: 30px 0 0; }
+
+.rich-resource {
+  padding: 0 20px; }
+
+.content-case {
+  padding: 40px 60px;
+  text-align: left; }
+  .content-case h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 15px; }
+  .content-case > .row {
+    margin: 30px 0; }
+    .content-case > .row .cases-number {
+      color: #f9fafc;
+      font-size: 32px;
+      font-weight: 500;
+      margin-top: 20px;
+      text-align: left; }
+    .content-case > .row .cases-description {
+      color: #f9fafc;
+      font-size: 13px;
+      font-weight: 300;
+      text-align: left; }
+  .content-case .btn-primary {
+    margin-top: 20px; }
+
+.content-case--featured {
+  text-align: center; }
+  .content-case--featured h1 {
+    color: #f9fafc;
+    text-align: center; }
+  .content-case--featured > .row .cases-number, .content-case--featured > .row .cases-description {
+    color: #f9fafc;
+    text-align: center; }
 
 .content-block--styled {
   position: relative;
@@ -2544,6 +2558,8 @@ strong {
     position: absolute;
     right: 100%;
     top: 0; }
+  .content-block--featured--base p, .content-block--featured--base h1, .content-block--featured--base h2, .content-block--featured--base h3, .content-block--featured--base h4, .content-block--featured--base h5, .content-block--featured--base h6, .content-block--featured--base a {
+    color: #f9fafc; }
 
 .content-block--featured--secondary {
   color: #f9fafc;
@@ -2567,11 +2583,15 @@ strong {
     position: absolute;
     right: 100%;
     top: 0; }
+  .content-block--featured--secondary p, .content-block--featured--secondary h1, .content-block--featured--secondary h2, .content-block--featured--secondary h3, .content-block--featured--secondary h4, .content-block--featured--secondary h5, .content-block--featured--secondary h6, .content-block--featured--secondary a {
+    color: #f9fafc; }
 
 .content-block--featured--imaged {
-  color: #f9fafc;
   background-image: url("https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F877%2F1461850612bottom-bg.png");
   background-size: cover; }
+  .content-block--featured--imaged p, .content-block--featured--imaged h1, .content-block--featured--imaged h2, .content-block--featured--imaged h3, .content-block--featured--imaged h4, .content-block--featured--imaged h5, .content-block--featured--imaged h6, .content-block--featured--imaged a {
+    color: #f9fafc;
+    text-align: center; }
 
 @media screen and (max-width: 768px) {
   .content-block {

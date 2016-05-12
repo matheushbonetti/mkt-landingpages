@@ -1,0 +1,37 @@
+<section class="content-section content-block--featured--imaged">
+  <div class="content-wrapper content-block content-block--featured">
+    <h1>Conhe&ccedil;a mais dos nossos materiais ricos para Ag&ecirc;ncias</h1>
+    <p>&nbsp;</p>
+    <div class="row">
+      {% include _elements/rich-resource.html
+        resourcelink   = "http://materiais.resultadosdigitais.com.br/inbound-marketing-guia-basico"
+        resourceImgSrc = "https://d335luupugsy2.cloudfront.net/images/landing_page/99122/ebook_thank-u-page.png"
+        resourceName   = "<strong>Guia:</strong> Inbound Marketing - tudo o que sua ag&ecirc;ncia precisa saber"
+      %}
+
+      {% include _elements/rich-resource.html
+        resourcelink   = "http://materiais.resultadosdigitais.com.br/ebook-os-desafios-das-agencias-de-resultados"
+        resourceImgSrc = "https://d335luupugsy2.cloudfront.net/images/landing_page/43618/offer-logo.png"
+        resourceName   = "<strong>eBook:</strong> Os principais desafios das ag&ecirc;ncias de resultados"
+      %}
+
+      {% include _elements/rich-resource.html
+        resourcelink   = "http://materiais.resultadosdigitais.com.br/17-servicos-de-inbound-marketing"
+        resourceImgSrc = "https://d335luupugsy2.cloudfront.net/images/landing_page/15904/offer-logo.png"
+        resourceName   = "<strong>eBook:</strong> 17 servi&ccedil;os de Inbound Marketing que sua empresa pode oferecer"
+      %}
+    </div>
+  </div>
+</section>
+
+<script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("style").remove();
+    $("#conversion").addClass("col col-md-4").wrap( "<div class='content-wrapper'></div>" );
+    $(window).load(function(){
+    	$('#preloader').fadeOut('slow',function(){$(this).remove();});
+    });
+  });
+</script>
