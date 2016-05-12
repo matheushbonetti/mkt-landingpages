@@ -1,0 +1,47 @@
+#resources {
+  background-color: $secondary-color;
+  padding: 0px;
+  header {
+    padding: 40px 40px 15px;
+    background-color: rgba(0,0,0,0.2);
+    margin: 0 0px 20px;
+    h1, h2 { font-size: 24px; }
+    h1, h2, p {
+      color: $white;
+    }
+  }
+  section {
+    padding: 0 40px 30px;
+    #error-container p {
+      font-size: 16px;
+      color: $white;
+    }
+    .field {
+      margin-bottom: 15px;
+      label, label span {
+        color: $white;
+        font-size: 16px;
+        font-weight: 300;
+      }
+      input, select {
+        border: 0;
+        border-bottom: 2px solid $secondary-color--light;
+        outline: 0;
+        @include border-radius(0px);
+        font-size: 16px;
+        font-weight: 300;
+        color: $black;
+        padding: 5px 8px;
+        width: 100%;
+      }
+      input[type="checkbox"] {
+        width: inherit;
+      }
+    }
+    p.notice {
+      font-size: 14px;
+      margin: 20px 0 0;
+      color: $white;
+    }
+  }
+}

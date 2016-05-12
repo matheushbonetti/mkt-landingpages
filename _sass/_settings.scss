@@ -19,8 +19,8 @@ $secondary-color: #9E67C5;
 // $secondary-color: #536564;
 
 //EDU
-$base-color: #D83A56;
-$secondary-color: #4385DA;
+// $base-color: #D83A56;
+// $secondary-color: #4385DA;
 
 // SHADES
 $base-color--dark: darken($base-color, 15%);
@@ -55,11 +55,11 @@ $rdstation-logo--white: url('https://rawgit.com/matheushbonetti/mkt-landingpages
 // HERO HEADER
 //////////////
 //AGENCIAS
-// $hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg');
+$hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg');
 //TEC
 // $hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461159806tecnologia.jpg');
 //EDU
-$hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461074608educacao.jpg');
+// $hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461074608educacao.jpg');
 
 $hero-header--bg-color: $base-color;
 $hero-header--txt-color: $white;
