@@ -1,0 +1,8 @@
+.content--bgimaged {
+  //AGENCIAS
+  @include fullwidthimage($imaged-section--image);
+  p, h1, h2, h3, h4, h5, h6, a {
+    color: $white;
+    text-align: center;
+  }
+}

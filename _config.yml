@@ -21,6 +21,8 @@ sass:
     load_paths:
         - _sass
         - _components
+        - _elements
+        - _styles
 
 # Build settings
 markdown: kramdown

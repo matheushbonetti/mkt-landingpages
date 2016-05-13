@@ -1,0 +1,14 @@
+.content-block {
+    padding: 3*$ver-unity 4*$hor-unity 4*$ver-unity 4*$ver-unity;
+    @extend .content-wrapper;
+
+    h1 { font-size: 40px; }
+    p { font-size: 18px; }
+
+    .btn {
+      margin: 30px auto 0;
+      display: block;
+      max-width: 300px;
+      white-space: normal;
+    }
+}

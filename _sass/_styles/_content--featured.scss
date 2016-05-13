@@ -1,0 +1,15 @@
+.content--featured.base {
+  color: $white;
+  @include fullwidthbox($base-color);
+  p, h1, h2, h3, h4, h5, h6, a {
+    color: $white;
+  }
+}
+
+.content--featured.secondary {
+  color: $white;
+  @include fullwidthbox($secondary-color);
+  p, h1, h2, h3, h4, h5, h6, a {
+    color: $white;
+  }
+}

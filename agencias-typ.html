@@ -3,10 +3,12 @@ layout: thank-you-page
 ---
 
 <section class="content-section">
-  <div class="content-block">
-    <h1>Casos de sucesso</h1>
-    <p>Clientes de diversos portes e segmentos contam suas hist&oacute;rias de resultados com o <strong class="no-break">RD Station</strong></p>
-  </div>
+
+  {% include _elements/content-block.html
+    style      = "content--featured base"
+    title      = "Casos de sucesso"
+    paragraph  = "Clientes de diversos portes e segmentos contam suas hist&oacute;rias de resultados com o <strong class='no-break'>RD Station</strong>"
+  %}
 
   {% include _elements/content-case-video.html
     caseName  = 'Com Inbound Marketing, Dialetto impulsiona faturamento e n&uacute;mero de clientes em dois anos'

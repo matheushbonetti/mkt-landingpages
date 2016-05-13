@@ -1,0 +1,21 @@
+<div class="content-block content--featured base">
+  <h1>{{include.title}}</h1>
+  <p>{{include.paragraph}}</p>
+  <div class="row">
+    {% include _elements/rich-resource.html
+      resourcelink   = include.resource1link
+      resourceImgSrc = include.resource1imageSrc
+      resourceName   = include.resource1name
+    %}
+    {% include _elements/rich-resource.html
+      resourcelink   = include.resource2link
+      resourceImgSrc = include.resource2imageSrc
+      resourceName   = include.resource2name
+    %}
+    {% include _elements/rich-resource.html
+      resourcelink   = include.resource3link
+      resourceImgSrc = include.resource3imageSrc
+      resourceName   = include.resource3name
+    %}
+  </div>
+</div>

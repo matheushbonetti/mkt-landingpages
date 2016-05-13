@@ -1,26 +1,54 @@
 // GOOGLE FONTS CALL
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,500italic');
 
+////////////////////////////////////
+// COLORS //////////////////////////
+////////////////////////////////////
+
+//AGENCIAS
+$base-color: #43B0C3;
+$secondary-color: #9E67C5;
+//TEC
+// $base-color: #19AF8E;
+// $secondary-color: #536564;
+//EDU
+// $base-color: #D83A56;
+// $secondary-color: #4385DA;
+
+/////////////////////////////////////////
+// HERO HEADER //////////////////////////
+/////////////////////////////////////////
+
+//AGENCIAS
+$hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg');
+//TEC
+// $hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461159806tecnologia.jpg');
+//EDU
+// $hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461074608educacao.jpg');
+
+
+////////////////////////////////////////////
+// IMAGED SECTION //////////////////////////
+////////////////////////////////////////////
+
+//AGENCIAS
+$imaged-section--image: url('https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F877%2F1461850612bottom-bg.png');
+//TECNOLOGIA
+// $imaged-section--image: url('https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F2%2F1462570857tecnologia-botom.jpg');
+//EDUCACAO
+// $imaged-section--image: url('https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F2%2F1462570857edu-bottom-bg.jpg');
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 ////////
 // UNITY
 ////////
 $hor-unity: 14px;
 $ver-unity: 14px;
-
-/////////
-// COLORS
-/////////
-//AGENCIAS
-$base-color: #43B0C3;
-$secondary-color: #9E67C5;
-
-//TEC
-// $base-color: #19AF8E;
-// $secondary-color: #536564;
-
-//EDU
-// $base-color: #D83A56;
-// $secondary-color: #4385DA;
 
 // SHADES
 $base-color--dark: darken($base-color, 15%);
@@ -51,15 +79,6 @@ $rd-logo--white: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master
 // LOGO RD STATION BRANCO:
 $rdstation-logo--white: url('https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rdstation--white.svg');
 
-//////////////
-// HERO HEADER
-//////////////
-//AGENCIAS
-$hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg');
-//TEC
-// $hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461159806tecnologia.jpg');
-//EDU
-// $hero-header--image: url('https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1461074608educacao.jpg');
 
 $hero-header--bg-color: $base-color;
 $hero-header--txt-color: $white;
