@@ -1,0 +1,9 @@
+.call_button {
+  @include button($base-color, $white, 100%);
+}
+
+.btn-primary {
+  @include button($secondary-color, $white, auto);
+  display: inline-block;
+  margin: 0 auto 50px;
+}

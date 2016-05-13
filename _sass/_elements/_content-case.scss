@@ -1,0 +1,17 @@
+.content-case {
+  h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .col-video { padding-left: 0; }
+  .case-info {
+    .cases-number {
+      font-size: 30px;
+      color: $base-color;
+    }
+    .cases-description {
+      font-weight: 300;
+      font-size: 14px;
+    }
+  }
+}

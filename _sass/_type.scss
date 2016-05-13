@@ -1,0 +1,25 @@
+* {
+ font-family: "Roboto", sans-serif;
+ color: $black;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+  font-weight: 300;
+  margin: 0;
+}
+h5, h6, p, p.lead {
+  line-height: 1.7;
+  font-weight: 300;
+  margin: 0;
+}
+p {
+  font-size: 18px;
+}
+strong {
+  font-weight: 500;
+  color: inherit;
+}
+.no-break {
+  white-space: nowrap;
+}

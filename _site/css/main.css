@@ -2211,6 +2211,10 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
 
+body {
+  background-color: #f9fafc;
+  overflow-x: hidden; }
+
 .wrapper {
   overflow: hidden; }
 
@@ -2237,10 +2241,6 @@ input[type="button"].btn-block {
   font-family: "Roboto", sans-serif;
   color: #304955; }
 
-body {
-  background-color: #f9fafc;
-  overflow-x: hidden; }
-
 h1, h2, h3, h4 {
   line-height: 1.4;
   font-weight: 300;
@@ -2261,15 +2261,86 @@ strong {
 .no-break {
   white-space: nowrap; }
 
-.col-video {
-  padding-left: 0; }
+.hero-header {
+  background: url("https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg") center center;
+  background-size: cover;
+  float: left;
+  width: 100%; }
 
-.case-info div {
-  padding-right: 0; }
-.case-info .cases-number {
+.hero-header__content-block {
+  background-color: #43B0C3;
+  min-height: 420px;
+  padding: 42px 56px; }
+  .hero-header__content-block h1 {
+    color: #f9fafc; }
+  .hero-header__content-block p {
+    color: #f9fafc;
+    font-size: 18px; }
+
+@media screen and (max-width: 768px) {
+  .hero-header__content-block {
+    padding: 28px 28px; } }
+#preloader {
+  background: #f9fafc url("https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/preloader.svg") no-repeat center center;
+  height: 100%;
+  left: 0;
+  overflow: visible;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+
+.brand-header {
+  background: #304955;
+  padding: 14px 0; }
+
+.brand-header__logo, .brand-header--rd, .brand-header--rdstation {
+  background-size: auto 100%;
+  height: 28px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 100%; }
+
+.brand-header--rd {
+  background: url("https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rd--white.svg") no-repeat center center; }
+
+.brand-header--rdstation {
+  background: url("https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rdstation--white.svg") no-repeat center center; }
+
+.rich-resource {
+  margin: 25px 0 20px 0;
+  display: block; }
+  .rich-resource a {
+    color: #f9fafc;
+    font-size: 22px;
+    font-weight: 300; }
+    .rich-resource a img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px; }
+
+.content-block {
+  padding: 42px 56px 56px 56px; }
+  .content-block h1 {
+    font-size: 40px; }
+  .content-block p {
+    font-size: 18px; }
+  .content-block .btn {
+    margin: 30px auto 0;
+    display: block;
+    max-width: 300px;
+    white-space: normal; }
+
+.content-case h1 {
+  font-size: 30px;
+  margin-bottom: 15px; }
+.content-case .col-video {
+  padding-left: 0; }
+.content-case .case-info .cases-number {
   font-size: 30px;
   color: #43B0C3; }
-.case-info .cases-description {
+.content-case .case-info .cases-description {
   font-weight: 300;
   font-size: 14px; }
 
@@ -2336,161 +2407,6 @@ strong {
     border: 1px solid #9E67C5;
     border-bottom: 2px solid #9E67C5;
     text-decoration: none; }
-
-/* SOCIAL SHARE */
-#container section div.socialfloating {
-  position: absolute;
-  left: 10px;
-  width: 9%; }
-
-#container section div.socialfloating iframe {
-  margin: 0; }
-
-@media screen and (min-width: 1366px) {
-  #container section div.socialfloating {
-    margin-top: 50px; } }
-@media screen and (min-width: 992px) and (max-width: 1366px) {
-  #container section div.socialfloating {
-    margin-top: 50px; } }
-@media screen and (max-width: 992px) {
-  #container section div.socialfloating {
-    display: none; }
-
-  .col-video {
-    padding: 0;
-    margin: 0 -30px; }
-
-  .case-info {
-    margin-top: 25px; }
-    .case-info > div {
-      text-align: center;
-      margin-top: 20px; } }
-.fb_iframe_widget {
-  padding-bottom: 8px; }
-
-#container #social-share .vertical-share .twitter-share,
-#container #social-share .vertical-share .linkedin-share,
-#container #social-share .vertical-share .gplus-share,
-#container #social-share .vertical-share .fb-share {
-  display: inline-block;
-  margin-right: 10px; }
-
-#conversion, #resources {
-  background-color: #9E67C5;
-  padding: 0px; }
-  #conversion header, #resources header {
-    padding: 40px 40px 15px;
-    background-color: rgba(0, 0, 0, 0.2);
-    margin: 0 0px 20px; }
-    #conversion header h1, #conversion header h2, #resources header h1, #resources header h2 {
-      font-size: 24px; }
-    #conversion header h1, #conversion header h2, #conversion header p, #resources header h1, #resources header h2, #resources header p {
-      color: #f9fafc; }
-  #conversion section, #resources section {
-    padding: 0 40px 30px; }
-    #conversion section #error-container p, #resources section #error-container p {
-      font-size: 16px;
-      color: #f9fafc; }
-    #conversion section .field, #resources section .field {
-      margin-bottom: 15px; }
-      #conversion section .field label, #conversion section .field label span, #resources section .field label, #resources section .field label span {
-        color: #f9fafc;
-        font-size: 16px;
-        font-weight: 300; }
-      #conversion section .field input, #conversion section .field select, #resources section .field input, #resources section .field select {
-        border: 0;
-        border-bottom: 2px solid #c19eda;
-        outline: 0;
-        -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
-        -ms-border-radius: 0px;
-        border-radius: 0px;
-        font-size: 16px;
-        font-weight: 300;
-        color: #304955;
-        padding: 5px 8px;
-        width: 100%; }
-      #conversion section .field input[type="checkbox"], #resources section .field input[type="checkbox"] {
-        width: inherit; }
-    #conversion section p.notice, #resources section p.notice {
-      font-size: 14px;
-      margin: 20px 0 0;
-      color: #f9fafc; }
-
-.rich-resource {
-  margin: 25px 0 20px 0;
-  display: block; }
-  .rich-resource a {
-    color: #f9fafc;
-    font-size: 22px;
-    font-weight: 300; }
-    .rich-resource a img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 10px; }
-
-#content {
-  padding-left: 0;
-  padding-right: 0; }
-
-#preloader {
-  background: #f9fafc url("https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/preloader.svg") no-repeat center center;
-  height: 100%;
-  left: 0;
-  overflow: visible;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 9999; }
-
-.brand-header {
-  background: #304955;
-  padding: 14px 0; }
-
-.brand-header__logo, .brand-header--rd, .brand-header--rdstation {
-  background-size: auto 100%;
-  height: 28px;
-  margin: 0 auto;
-  overflow: hidden;
-  text-indent: -9999px;
-  width: 100%; }
-
-.brand-header--rd {
-  background: url("https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rd--white.svg") no-repeat center center; }
-
-.brand-header--rdstation {
-  background: url("https://rawgit.com/matheushbonetti/mkt-landingpages/master/img/logo-rdstation--white.svg") no-repeat center center; }
-
-.hero-header {
-  background: url("https://rdstation-static.s3.amazonaws.com/cms%2Ffiles%2F877%2F1460997025agencias.jpg") center center;
-  background-size: cover;
-  float: left;
-  width: 100%; }
-
-.hero-header__content-block {
-  background-color: #43B0C3;
-  min-height: 420px;
-  padding: 42px 56px; }
-  .hero-header__content-block h1 {
-    color: #f9fafc; }
-  .hero-header__content-block p {
-    color: #f9fafc;
-    font-size: 18px; }
-
-@media screen and (max-width: 768px) {
-  .hero-header__content-block {
-    padding: 28px 28px; } }
-.content-block {
-  padding: 42px 56px 56px 56px; }
-  .content-block h1 {
-    font-size: 40px; }
-  .content-block p {
-    font-size: 18px; }
-  .content-block .btn {
-    margin: 30px auto 0;
-    display: block;
-    max-width: 300px;
-    white-space: normal; }
 
 .content--featured.base {
   color: #f9fafc;
